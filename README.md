@@ -8,9 +8,9 @@ Website is responsive and works both in mobile view and desktop view scales.
 
 SVG images have been used in this project for more scalability and convenience.
 
+Any external libraries have been used except plain JS, CSS and HTML.
 
-
-
+Feel free to edit.
 
 Mobile View
 
