@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Document</title>
 </head>
-<body>
+<body class="item-page">
     <header class="item-header">
         <div class="item-header-block">
             <a href="index.html"><img id="return-item" src="assets/return.svg" alt=""></a>
@@ -21,46 +21,108 @@
             <p id="reviews">(1286 Reviews)</p>
         </div>
         
-        <div class="item-header-block">
-            <img id="item-shoppingcart" src="assets/shoppingcart-icon.svg" alt="">
+        <div id="icons-item" class="item-header-block">
+            <a href="#"><img src="assets/darkmode-icon.svg" alt=""></a>
+            <a href="#"><img src="assets/shoppingcart-icon.svg" alt=""></a>
+            <a href="#"><img src="assets/notifications-icon.svg" alt=""></a>
         </div>
+        <div class="item-header-block"></div>
     </header>
     <div class="item-page-body">
-        <div class="item-pic">
-            <img src="assets/t-shirt-1.svg" alt="">
-        </div>
-
-        <div class="item-options">
-            <div class="select-size">
-                Select Size
-            </div>
-            <div class="select-quantity">
-                
-                <div class="dropdown">
-                    <button class = "dropbtn" href=""><img id="item-upper-arrow" src="assets/upper-arrow.svg" alt=""> 1</button>
-                    <div class="dropdown-content">
-                      <a href="#">1</a>
-                      <a href="#">2</a>
-                      <a href="#">3</a>
-                      <a href="#">4</a>
-                      <a href="#">5</a>
-                    </div>
-                  </div>
+        <div class="body-item">
+            <div class="item-pic">
+                <img src="assets/t-shirt-1.svg" alt="">
             </div>
         </div>
-        <div class="size-selection">
-            <div>
-            <a href="#">S</a>
-            <a id="selected-size" href="#">M</a>
-            <a href="#">L</a>
-            <a href="#">XL</a>
+        <div class="body-item">
+            <div class="item-arc-text">
+                <h1>Lorem</h1>
+                <p>lorem ipsum dolor sit amet consectetur adipiscing<br>
+                    elit lorem ipsum dolor sit amet consectetur adipiscing <br> elit.</p>
             </div>
-        </div>
-        <div class="item-buy">
-            <p>$50</p>
-            <div id="item-button" class="button">Add to Cart</div>
+            <div class="item-options">
+                <div class="select-size">
+                    Select Size
+                </div>
+                <div class="select-quantity">
+                    
+                    <div class="dropdown">
+                        <button class = "dropbtn" href=""><img id="item-upper-arrow" src="assets/upper-arrow.svg" alt=""> 1</button>
+                        <div class="dropdown-content">
+                          <a href="#">1</a>
+                          <a href="#">2</a>
+                          <a href="#">3</a>
+                          <a href="#">4</a>
+                          <a href="#">5</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="size-selection">
+                <div>
+                <a href="#">S</a>
+                <a id="selected-size" href="#">M</a>
+                <a href="#">L</a>
+                <a href="#">XL</a>
+                </div>
+            </div>
+            <div class="item-buy">
+                <p>$50</p>
+                <div id="item-button" class="button">Add to Cart</div>
+            </div>
         </div>
     </div>
+    <div id="item-line" class="line"></div>
+    <footer id="item-footer" class="footer">
+        <div id="first-footer-item" class="footer-item">
+            <a href="#">
+                <h1>Shopping</h1>
+            </a>
+            <a href="#">
+                <h2>Pricing</h2>
+            </a>
+            <a href="#">
+                <h2>Shipping</h2>
+            </a>
+            <a href="#">
+                <h2>Promotions</h2>
+            </a>
+        </div>
+        <div class="footer-item">
+            <a href="#">
+                <h1>Contact</h1>
+            </a>
+            <a href="#">
+                <h2>Mail</h2>
+            </a>
+            <a href="#">
+                <h2>Location</h2>
+            </a>
+        </div>
+        <div class="footer-item">
+            <a href="#">
+                <h1>About Us</h1>
+            </a>
+            <a href="#">
+                <h2>Foundation</h2>
+            </a>
+            <a href="#">
+                <h2>Activities</h2>
+            </a>
+        </div>
+        <div class="footer-item" id="last-footer-item">
+            <a href="#">
+                <h1>Privacy</h1>
+            </a>
+            <a href="#">
+                <h2>Our Policy</h2>
+            </a>
+            <ah ref="#">
+                <h2>Your Data</h2></a>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <div id="item-copyright" class="copyright" style="text-align: center;">&copy; All Rights Reserved.</div>
     <div class="fixed-bottom">
         <div class="fixed-bottom-item">
             <a href="index.html"><img src="assets/bottom-1.svg" alt=""></a>
